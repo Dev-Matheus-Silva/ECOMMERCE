@@ -1,6 +1,6 @@
 const mongoose = reuire("mongoose");
 const Usuario = mongoose.model("Usuario");
-const enviarEmailRecovery = require("../helpers/email-recorvery")
+//const enviarEmailRecovery = require("../helpers/email-recorvery")
 
 class UsuarioController {
 
@@ -144,4 +144,6 @@ class UsuarioController {
             });
         }
 
-    }  
+    } 
+    
+    module.exports = UsuarioController;
